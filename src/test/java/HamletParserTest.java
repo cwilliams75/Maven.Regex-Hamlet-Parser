@@ -15,10 +15,22 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHamletToLeon() {
+        //given
+        assertTrue((hamletParser.findHamlet(hamletText)));
+        //when
+        hamletParser.changeHamletToLeon();
+        //then
+        assertFalse(hamletParser.findHamlet(hamletParser.getHamletData()));
     }
 
     @Test
     public void testChangeHoratioToTariq() {
+        //given
+        assertTrue((hamletParser.findHoratio(hamletText)));
+        //when
+        hamletParser.changeHoratioTariq();
+        //then
+        assertFalse(hamletParser.findHoratio(hamletParser.getHamletData()));
     }
 
     @Test

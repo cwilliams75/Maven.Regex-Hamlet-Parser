@@ -36,4 +36,19 @@ public class HamletParser {
         return hamletData;
     }
 
+    public boolean findHamlet(String hamletText) {
+
+    }
+
+    public void changeHamletToLeon() {
+
+    }
+
+    public boolean findHoratio(String hamletText) {
+
+    }
+
+    public void changeHoratioTariq() {
+
+    }
 }
